@@ -12,13 +12,21 @@
 <body>
 	<div class="container">
 		<div id="menu">
-        	<a href="<?php bloginfo(''); ?>">
-                <div class="logo">
+        	<div class="row">
+            	<div class="col-xs-9">
+                    <a href="<?php bloginfo('url'); ?>">
+                        <div class="logo">
+                        </div>
+                    </a>
                 </div>
-            </a>
-            <div class="login">
+                <div class="col-xs-3">
+                    <div class="login">
+                        Not a Member Yet? | Sign In
+                    </div>
+                </div>
             </div>
             <div class="menu-nav">
                 <?php wp_nav_menu(['menu_class' => 'nav']); ?>
             </div>
+            <div class="clear"></div>
         </div>

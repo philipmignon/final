@@ -4,8 +4,12 @@
   Author: Phillip Huynh
 */
 
+/*START OF HEADER*/
+
 #menu{
 	background-color: black;
+	border-bottom: 10px #ebc328;
+    border-bottom-style: solid;
 }
 
 .logo{
@@ -14,8 +18,153 @@
 	background-size: 375px 75px;
 	width: 375px;
 	height: 75px;
+	margin: 15px;
+	margin-left: 35px;
 }
 
-#myCarousel{
-	height:300px;
+.login{
+	color: white;
+	font-weight: bold;
+	width: 200px;
+	margin-top: 15px;
 }
+
+.menu-nav{
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 40%;
+	z-index:99;
+}
+
+#menu-item-27 a {
+	background-image: url('images/meat-icon.png');
+	background-repeat: no-repeat;
+	background-size: 65px 65px;
+}
+
+#menu-item-26 a {
+	background-image: url('images/veggie-icon.png');
+	background-repeat: no-repeat;
+	background-size: 65px 65px;
+}
+
+#menu-item-25 a {
+	background-image: url('images/fruit-icon.png');
+	background-repeat: no-repeat;
+	background-size: 65px 65px;
+}
+
+#menu-item-24 a {
+	background-image: url('images/dessert-icon.png');
+	background-repeat: no-repeat;
+	background-size: 65px 65px;
+}
+
+#menu-item-23 a {
+	background-image: url('images/drink-icon.png');
+	background-repeat: no-repeat;
+	background-size: 65px 65px;
+}
+
+.main-menu-food{
+	width: 65px;
+	height: 65px;
+	margin-left: 20px;
+	position: absolute;
+}
+
+.menu-item{
+	text-indent: -9999px;
+	float: left;
+	list-style: none;
+}
+
+.main-menu-food a{
+	width: 65px;
+	height: 65px;
+	display: block;
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+	background-color: transparent;
+}
+
+/*END OF HEADER*/
+
+/*CAROUSEL*/
+
+#myCarousel{
+	height: 550px;
+}
+
+/*CAROUSEL*/
+
+/*FOOTER*/
+
+#footer{
+	color: white;
+	background-color: black;
+	height: 70px;
+}
+
+.social-media{
+	margin-top: -2px;
+}
+
+#menu-item-30 a {
+	background-image: url('images/facebook-icon.png');
+	background-repeat: no-repeat;
+	background-size: 35px 35px;
+}
+
+#menu-item-31 a {
+	background-image: url('images/twitter-icon.png');
+	background-repeat: no-repeat;
+	background-size: 35px 35px;
+}
+
+#menu-item-32 a {
+	background-image: url('images/pinterest-icon.png');
+	background-repeat: no-repeat;
+	background-size: 35px 35px;
+}
+
+.menu-social-menu-container{
+	margin-left: -40px;
+}
+
+.social-footer-menu a{
+	width: 35px;
+	height: 35px;
+	margin-left: 10px;
+	display: block;
+}
+
+.faq{
+	margin: 15px;
+}
+
+.faq a{
+	color: white;
+	text-decoration: none;
+}
+
+/*FOOTER*/
+
+/*MISC*/
+
+body{
+	background-color: gray;
+}
+
+.container{
+	background-color: white;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.clear{
+	clear: both;
+}
+
+/*MISC*/
