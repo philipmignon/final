@@ -10,4 +10,15 @@
 	<?php wp_head();?>
 </head>
 <body>
-  <div class="container">
+	<div class="container">
+		<div id="menu">
+        	<a href="<?php bloginfo(''); ?>">
+                <div class="logo">
+                </div>
+            </a>
+            <div class="login">
+            </div>
+            <div class="menu-nav">
+                <?php wp_nav_menu(['menu_class' => 'nav']); ?>
+            </div>
+        </div>
