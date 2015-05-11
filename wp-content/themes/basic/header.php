@@ -13,15 +13,15 @@
 	<div class="container">
 		<div id="menu">
         	<div class="row">
-            	<div class="col-xs-9">
+            	<div class="col-xs-8">
                     <a href="<?php bloginfo('url'); ?>">
                         <div class="logo">
                         </div>
                     </a>
                 </div>
-                <div class="col-xs-3">
+                <div class="col-xs-4">
                     <div class="login">
-                        Not a Member Yet? | Sign In
+                        <a href="">Not a Member Yet?</a> | Sign In | <a href="<?php bloginfo('url'); ?>/cart">Cart</a>
                     </div>
                 </div>
             </div>

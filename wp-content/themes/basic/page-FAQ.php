@@ -3,24 +3,29 @@
 Template Name: FAQ Page
 */
 ?>
-
-<?php $args = array(
+	<div id="FAQ">
+    	<div id="FAQ-heading">
+        	Frequently Asked Questions (FAQ)
+        </div>
+    	<?php $args = array(
         'posts_per_page' => '2',
         'cat' => 'FAQ',
         'post_type' => 'post',
-        'orderby' => 'title',
     	);
 		$query = new WP_Query( 'category_name=FAQ' );
 		if( $query->have_posts()) : while( $query->have_posts() ) : $query->the_post(); ?>
-
-
-    <?php the_title(); ?>
-    <?php the_content(); ?>
-
-
-<?php endwhile; else: ?>
-    <p>Sorry, no FAQs matched your criteria.</p>
-<?php endif; ?>
-
+        
+        <div class="FAQ-section">
+            <div class="FAQ-title">
+                <?php the_title(); ?>
+            </div>
+            <div class="FAQ-info">
+                <?php the_content(); ?>
+            </div>
+        </div>
+        <?php endwhile; else: ?>
+    		<p>Sorry, no FAQs matched your criteria.</p>
+		<?php endif; ?>
+	</div>
 
 <?php get_footer(); ?>
