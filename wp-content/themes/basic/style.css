@@ -22,11 +22,20 @@
 	margin-left: 35px;
 }
 
-.login{
+#login{
 	color: white;
 	font-weight: bold;
 	width: 300px;
 	margin-top: 15px;
+}
+
+#login a{
+	color: #ebc328;
+}
+
+.login{
+	width: 300px;
+	margin-left: 200px;
 }
 
 .login a{
@@ -94,6 +103,19 @@
 }
 
 /*END OF HEADER*/
+
+/*LOGIN*/
+
+.login-page{
+	height: 550px;
+	padding-top: 60px;
+}
+
+.login-page a{
+	color: #ebc328;
+}
+
+/*LOGIN*/
 
 /*CAROUSEL*/
 
