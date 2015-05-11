@@ -6,7 +6,7 @@ Template Name: Gallery Page
 
 <div class="gallery">
     <div class="col-xs-4">
-        <h1 class="gallery-title"><?php the_title(); ?></h1>
+        <h1 id="gallery-title"><?php the_title(); ?></h1>
         <div class="col-xs-12 gallery-selections">
 			<?php $bargs = array('post_type'=>'selection', 'posts_per_page'=>'3', 'orderby'=>'rand'); ?>
             <?php 
