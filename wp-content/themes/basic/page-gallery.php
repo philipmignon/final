@@ -26,11 +26,23 @@ Template Name: Gallery Page
             <?php endif; ?>
         </div>
     </div>
-    <div class="col-xs-8">
-        <div class="row">
-            <div class="col-xs-4">
-            </div>
-        </div>
+    <div class="col-xs-8 gallery_post">
+        <?php $args = array(
+        'posts_per_page' => '9',
+        'product_cat' => 'meat',
+        'post_type' => 'product',
+        'orderby' => 'title',
+    	);
+		echo '<div class="col-xs-4 product_gallery">';
+		$query = new WP_Query( $args );
+		if( $query->have_posts()) : while( $query->have_posts() ) : $query->the_post();
+		echo '<a rel="' .get_permalink(). '" href="' .get_permalink(). ' ">'; the_post_thumbnail( 'medium' );
+		echo '</a>';
+		echo '</div>';
+		endwhile;
+		endif;
+		wp_reset_postdata();
+	?>
     </div>
 </div>
 <?php get_footer(); ?>

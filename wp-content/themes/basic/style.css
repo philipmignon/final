@@ -220,6 +220,14 @@
 
 /*GALLERY*/
 
+.gallery_post{
+	margin-top: 20px;
+}
+
+.product_gallery{
+	overflow: hidden;
+}
+
 .gallery{
 	height: 750px;
 }
