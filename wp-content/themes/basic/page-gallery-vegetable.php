@@ -1,6 +1,6 @@
 <?php get_header();
 /*
-Template Name: Meat Gallery Page
+Template Name: Vegetable Gallery Page
 */
 ?>
 
@@ -29,7 +29,7 @@ Template Name: Meat Gallery Page
     <div class="col-xs-8 gallery_post">
         <?php $args = array(
         'posts_per_page' => '20',
-        'product_cat' => 'meat',
+        'product_cat' => 'vegetable',
         'post_type' => 'product',
         'orderby' => 'title',
     	);
