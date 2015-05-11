@@ -29,6 +29,10 @@
 	margin-top: 15px;
 }
 
+.login a{
+	color: #ebc328;
+}
+
 .menu-nav{
 	position: absolute;
 	margin-top: -30px;
@@ -310,6 +314,24 @@
 	padding: 10px;
 	margin: 10px;
 	height: 750px;
+}
+
+.email-image{
+	background-image: url('images/TimesComing.png');
+	background-size: 500px 700px;
+	height: 700px;
+	width: 500px;
+	background-repeat: no-repeat;
+}
+
+.form-control:focus{
+	border-color: #EBC328;
+	box-shadow: 0px 0px 0px;
+}
+
+.contact-email{
+	border: 0px;
+	border-radius: 0px;
 }
 
 /*EMAIL*/

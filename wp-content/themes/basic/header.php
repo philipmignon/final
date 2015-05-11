@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-xs-4">
                     <div class="login">
-                        <a href="">Not a Member Yet?</a> | Sign In | <a href="<?php bloginfo('url'); ?>/cart">Cart</a>
+                        <a href="">Not a Member Yet?</a> | <a href="<?php bloginfo('url'); ?>/log-in/">Sign In</a> | <a href="<?php bloginfo('url'); ?>/cart">Cart</a>
                     </div>
                 </div>
             </div>

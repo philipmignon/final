@@ -56,7 +56,7 @@ Template Name: Contact Page
 		}
 		?>
 
-        <div class="col-xs-12 well">
+        <div class="col-xs-12 well contact-email">
             <h2>Message me</h2>
             <form role="form" action="" method="POST">
               
@@ -94,6 +94,8 @@ Template Name: Contact Page
         <?php endif; ?>
 		</div>
         <div class="col-xs-6">
+        	<div class="email-image">
+            </div>
         </div>
 	</div>
 
