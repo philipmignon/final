@@ -28,14 +28,14 @@ Template Name: Gallery Page
     </div>
     <div class="col-xs-8 gallery_post">
         <?php $args = array(
-        'posts_per_page' => '9',
+        'posts_per_page' => '20',
         'product_cat' => 'meat',
         'post_type' => 'product',
         'orderby' => 'title',
     	);
-		echo '<div class="col-xs-4 product_gallery">';
 		$query = new WP_Query( $args );
 		if( $query->have_posts()) : while( $query->have_posts() ) : $query->the_post();
+		echo '<div class="col-xs-4 product_gallery">';
 		echo '<a rel="' .get_permalink(). '" href="' .get_permalink(). ' ">'; the_post_thumbnail( 'medium' );
 		echo '</a>';
 		echo '</div>';

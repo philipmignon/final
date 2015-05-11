@@ -188,6 +188,10 @@
 	border: 0;
 }
 
+.related{
+	display: none;
+}
+
 /*SINGLE*/
 
 /*CART*/
@@ -222,14 +226,18 @@
 
 .gallery_post{
 	margin-top: 20px;
+	margin-left: -20px;
 }
 
 .product_gallery{
 	overflow: hidden;
+	width: 250px;
+	height: 200px;
+	margin-bottom: 15px;
 }
 
 .gallery{
-	height: 750px;
+	height: 1250px;
 }
 
 #gallery-title{
