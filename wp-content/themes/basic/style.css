@@ -95,9 +95,57 @@
 
 #myCarousel{
 	height: 550px;
+	overflow: hidden;
+}
+
+.carousel-caption{
+	padding-bottom: 30px;
+	margin-bottom: 250px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary, .btn-primary{
+	background-color: #ebc328;
+	border-color: #ebc328;
 }
 
 /*CAROUSEL*/
+
+/*GALLERY*/
+
+.gallery{
+	height: 750px;
+}
+
+.gallery-title{
+	margin-bottom: 20px;
+}
+
+.gallery-selection-name{
+	position: absolute;
+	width: 325px;
+	background-color: #ebc328;
+	height: 45px;
+}
+
+.gallery-selection-name h3{
+	margin: 10px;
+	color: white;
+	margin-left: 15px;
+}
+
+.gallery-selection-image{
+	width: 325px;
+	overflow: hidden;
+	height: 175px;
+	margin-bottom: 20px;
+}
+
+.gallery-selection-image img{
+	width: 325px;
+	margin-top: -20px;
+}
+
+/*GALLERY*/
 
 /*FOOTER*/
 
