@@ -34,8 +34,9 @@
 }
 
 .login{
-	width: 300px;
-	margin-left: 200px;
+	width: 400px;
+	height: 300px;
+	font-size: 20px;
 }
 
 .login a{
