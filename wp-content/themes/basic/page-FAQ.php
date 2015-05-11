@@ -7,12 +7,7 @@ Template Name: FAQ Page
     	<div id="FAQ-heading">
         	Frequently Asked Questions (FAQ)
         </div>
-    	<?php $args = array(
-        'posts_per_page' => '2',
-        'cat' => 'FAQ',
-        'post_type' => 'post',
-    	);
-		$query = new WP_Query( 'category_name=FAQ' );
+    	<?php $query = new WP_Query( 'category_name=FAQ' );
 		if( $query->have_posts()) : while( $query->have_posts() ) : $query->the_post(); ?>
         
         <div class="FAQ-section">

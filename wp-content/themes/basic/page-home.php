@@ -18,7 +18,7 @@ Template Name: Home Page
         <div class="carousel-caption">
           <h1><?php the_field('heading');?></h1>
           <p><?php the_field('sub-heading');?></p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          <p><a class="btn btn-lg btn-primary" href="<?php the_field('link');?>" role="button"><?php the_field('button_caption');?></a></p>
         </div>
       </div>
     </div>
